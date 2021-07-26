@@ -46,7 +46,7 @@ nav a {
 a.menu:hover {
     font-size: 20px;
     color: white;
-    background-color: black;
+    background-color: #B2DFDB;
 }
 
 .active {
