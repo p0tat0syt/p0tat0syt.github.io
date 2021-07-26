@@ -5,27 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Strona p0tat0</title>
+    <title>p0tat0 side</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
     <link rel="icon" href="ikona.ico">
     <link rel="shortcut icon" href="ikona.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="Styl.css">
-    
-    <link rel="stylesheet" href="Styl.2.css">
-    
+
+    <script type="text/javascript">
+        let data = new Date();
+
+        let dzien = data.getDate();
+        let miesiac = data.getMonth() + 1;
+        let rok = data.getFullYear();
+
+        let godzina = data.getHours();
+        let minuta = data.getMinutes();
+        let sekunda = data.getSeconds();
+    </script>
+
 </head>
 
 <body>
 
-    <div id="Center">
+    <div id="czas"></div>
+
+    <script type="text/javascript">
+        document.getElementById("czas").innerHTML = dzien;
+    </script>
+
+    <div id="wrapper">
         <header>
             <img class="big" src="banner2.png" alt="potato - header" />
         </header>
 
         <nav>
-            <a class="menu active" href="#" id="YouTube">YouTube</a><a class="menu" href="#" id="Instagram">Instagram</a><a class="menu" href="#" id="Filmy">Filmy</a><a class="menu" href="#" id="Info">Info</a>
+            <a class="menu active" href="#">YouTube</a><a class="menu" href="#">Instagram</a><a class="menu" href="#">Informacje</a><a class="menu" href="#">Harmonogram</a>
         </nav>
 
         <section>
