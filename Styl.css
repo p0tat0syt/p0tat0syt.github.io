@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body {background-color: #000011}
+body {background-color: #000000}
 
 #wrapper {
     max-width: 1000px;
@@ -31,14 +31,14 @@ header img {width: 100%;
 }
 
 nav {
-    background-color: #C4DEF6;
+    background-color: #FF0000;
 }
 
 nav a {
     display: inline-block;
     width:25%;
     padding: 15px 30px;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
 }
