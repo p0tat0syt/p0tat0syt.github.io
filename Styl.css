@@ -38,21 +38,21 @@ nav a {
     display: inline-block;
     width:25%;
     padding: 15px 30px;
-    color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
 }
 
 a.menu:hover {
     font-size: 20px;
-    color: white;
+    color: black;
     background-color: #B2DFDB;
 }
 
 .active {
     font-size: 20px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #B2DFDB;
 }
 
 article {
